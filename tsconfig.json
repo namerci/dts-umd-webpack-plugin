@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "declaration": true,
+    "lib": [ "es5", "es2015.core", "es2015.promise", "es2015.collection" ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5",
+    "paths": {
+      "@type/*": ["types/*"],
+      "@app/*": ["charts/*"],
+      "@helpers": ["helpers"],
+      "@config/*": ["config/*"],
+      "@data/*": ["data/*"]
+    }
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
