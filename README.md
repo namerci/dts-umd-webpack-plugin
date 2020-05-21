@@ -11,7 +11,17 @@ You can install it via npm like `npm install dts-webpack-plugin@namerci/dts-webp
 
 ## Configuration
 
-Simply install it and then use in webpack `plugins` section like below:
+First, import your plugin in old way
+```
+const DefinitionBundlePlugin = require('dts-webpack-plugin').DefinitionBundlePlugin;
+```
+or if you use ES6 modules:
+```
+import { DefinitionBundlePlugin } from 'dts-webpack-plugin';
+```
+
+
+Then use the plugin:
 ```
 new DefinitionBundlePlugin({
     moduleName: 'MyModuleName',
