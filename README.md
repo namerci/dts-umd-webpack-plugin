@@ -6,18 +6,18 @@ There is no possibility to create `.d.ts` files for UMD as global out of the box
 
 ## Installation
 
-You can install it via npm like `npm install dts-webpack-plugin@namerci/dts-webpack-plugin`
+You can install it via npm like `npm install dts-umd-webpack-plugin@namerci/dts-umd-webpack-plugin`
 
 
 ## Configuration
 
 First, import your plugin in old way
 ```
-const DefinitionBundlePlugin = require('dts-webpack-plugin').DefinitionBundlePlugin;
+const DefinitionBundlePlugin = require('dts-umd-webpack-plugin').DefinitionBundlePlugin;
 ```
 or if you use ES6 modules:
 ```
-import { DefinitionBundlePlugin } from 'dts-webpack-plugin';
+import { DefinitionBundlePlugin } from 'dts-umd-webpack-plugin';
 ```
 
 
