@@ -1,4 +1,5 @@
 # dts-umd-webpack-plugin
+![Node.js Package](https://github.com/namerci/dts-umd-webpack-plugin/workflows/Node.js%20Package/badge.svg)
 
 If you are using TypeScript and Webpack, and you want to create `umd` module with global variable and still have benefits from TypeScript like type definitions, then this plugin is for you!
 
