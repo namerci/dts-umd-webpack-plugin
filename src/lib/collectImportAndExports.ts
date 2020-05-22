@@ -112,12 +112,6 @@ export function gatherAllDefinitionFiles(rootDir: string, tsConfig: TsConfig): D
         const imports: any[] = extractExportPath(source)
             .filter(Boolean)
             .map(p => {
-                console.log({
-                    path: path,
-                    p: p,
-                    rootDir: rootDir,
-                    replaceTo: resolvePath(path, p, rootDir, tsConfig.compilerOptions?.paths)
-                })
                 return {
                     path: p,
                     replaceTo: resolvePath(path, p, rootDir, tsConfig.compilerOptions?.paths)
