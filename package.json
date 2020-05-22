@@ -6,8 +6,7 @@
   "types": "./index.d.ts",
   "author": "Piotr Sałkowski <skc.peter@gmail.com>",
   "scripts": {
-    "build": "rm -rf dist && tsc -p .",
-    "prepublishOnly": "cp ./package.json ./dist/package.json"
+    "build": "rm -rf dist && tsc -p . && cp ./package.json ./dist/package.json"
   },
   "dependencies": {
     "typescript-formatter": "^7.2.2"
