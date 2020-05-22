@@ -7,8 +7,7 @@
   "author": "Piotr Sałkowski <skc.peter@gmail.com>",
   "scripts": {
     "build": "rm -rf dist && tsc -p .",
-    "prepublishOnly": "npm run build && cp -r ./dist/* ./ && rm -rf ./dist && rm -rf ./src && rm -rf ./tsconfig.json && rm -rf ./.github",
-    "postpublish": "git clean -fd"
+    "prepareRelease": "cp -r ./dist/* ./ && rm -rf ./dist && rm -rf ./src && rm -rf ./tsconfig.json && rm -rf ./.github",
   },
   "dependencies": {
     "typescript-formatter": "^7.2.2"
