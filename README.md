@@ -1,4 +1,4 @@
-# dts-webpack-plugin
+# dts-umd-webpack-plugin
 
 If you are using TypeScript and Webpack, and you want to create `umd` module with global variable and still have benefits from TypeScript like type definitions, then this plugin is for you!
 
