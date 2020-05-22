@@ -2,8 +2,8 @@
   "name": "dts-umd-webpack-plugin",
   "description": "Webpack plugin for combining definition files to work with UMD modules",
   "version": "0.0.2",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "author": "Piotr Sałkowski <skc.peter@gmail.com>",
   "scripts": {
     "build": "rm -rf dist && tsc -p .",
